@@ -40,6 +40,7 @@ This is where I will keep the majority of the exercises for this course as well.
 - Chrome Dev Tools
 
 ### What I learned
+ Off the top there were some keyboard shortcuts that I was unaware of. Keyboard shortcuts are always useful.
 
 ### Continued development
 
@@ -56,3 +57,4 @@ This is where I will keep the majority of the exercises for this course as well.
 - GitHub - [@slimbloodworth](https://github.com/SlimBloodworth)
 
 ## Acknowledgments
+Udemy and Colt Steele for having fantastic educational content, and offering full courses with certifications at a reasonable price.
