@@ -15,19 +15,13 @@
 ## Overview
 
 This project is associated with the Web Developer Bootcamp 2023 Certification Course through Udemy taught by Colt Steele.
-There are 61 Sections to this course. 
+There are 61 Sections to this course.
 
 ### The challenge
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-
 ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
@@ -40,31 +34,13 @@ There are 61 Sections to this course.
 - VSCode
 - BASH terminal
 - Git
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
+- Chrome Dev Tools
 
 ### What I learned
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
 
 ### Continued development
 
 ### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
