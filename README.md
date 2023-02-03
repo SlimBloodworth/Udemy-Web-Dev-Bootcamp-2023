@@ -38,6 +38,8 @@ There are 61 Sections to this course.
 - Flexbox
 - CSS Grid
 - VSCode
+- BASH terminal
+- Git
 - [React](https://reactjs.org/) - JS library
 - [Next.js](https://nextjs.org/) - React framework
 
