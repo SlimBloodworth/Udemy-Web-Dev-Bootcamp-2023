@@ -23,7 +23,9 @@ This is where I will keep the majority of the exercises for this course as well.
 ### Screenshot
 
 ### Links
+
 - [Udemy Web Developer Bootcamp 2023 with Certificate](https://www.udemy.com/course/the-web-developer-bootcamp/)
+
 ## My process
 
 ### Built with
@@ -42,6 +44,8 @@ This is where I will keep the majority of the exercises for this course as well.
 ### Continued development
 
 ### Useful resources
+
+- [MDN Web Docs](https://1drv.ms/u/s!Arictgwp-ImvheRTwEgh8f0nKTe5QA?e=Ficy2E)
 
 ## Author
 
