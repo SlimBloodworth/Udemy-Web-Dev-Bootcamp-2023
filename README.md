@@ -46,6 +46,8 @@ This is where I will keep the majority of the exercises for this course as well.
 
 ### Useful resources
 
+- [Entity Code](https://entitycode.com)
+
 - [MDN Web Docs](https://1drv.ms/u/s!Arictgwp-ImvheRTwEgh8f0nKTe5QA?e=Ficy2E)
 
 ## Author
