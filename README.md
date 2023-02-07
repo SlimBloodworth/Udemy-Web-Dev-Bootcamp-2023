@@ -54,6 +54,8 @@ The snowman should be in front of the words and the registered trademark should 
 
 - [MDN Web Docs](https://1drv.ms/u/s!Arictgwp-ImvheRTwEgh8f0nKTe5QA?e=Ficy2E)
 
+- [Semantic HTML](https://www.w3schools.com/html/html5_semantic_elements.asp)
+
 ## Author
 
 - Website - [Michelle Renee](https://slimbloodworth.editorx.io/portfolio)
