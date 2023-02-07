@@ -15,8 +15,8 @@
 ## Overview
 
 This project is associated with the Web Developer Bootcamp 2023 Certification Course through Udemy taught by Colt Steele.
-There are 61 Sections to this course. I recently complete the Git and GitHub Bootcamp Certification Course and wanted to get the practice in, so I will be using the BASH terminal and pushing changes with git.
-This is where I will keep the majority of the exercises for this course as well. Not every exercise will be included here.
+There are 61 Sections to this course. I recently completed the Git and GitHub Bootcamp Certification Course at the beginning February 2023 and wanted to get the practice in, so I will be using the BASH terminal and pushing changes with git.
+This is where I will keep the majority of the exercises for this course as well. Not every exercise will be included here, this course has asand box for their exercises, but I will include the ones that I feel are relevant and/or want to get some practice on.
 
 ### The challenge
 
