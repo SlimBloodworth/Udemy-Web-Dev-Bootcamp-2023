@@ -18,7 +18,11 @@ This project is associated with the Web Developer Bootcamp 2023 Certification Co
 There are 61 Sections to this course. I recently completed the Git and GitHub Bootcamp Certification Course at the beginning February 2023 and wanted to get the practice in, so I will be using the BASH terminal and pushing changes with git.
 This is where I will keep the majority of the exercises for this course as well. Not every exercise will be included here, this course has asand box for their exercises, but I will include the ones that I feel are relevant and/or want to get some practice on.
 
-### The challenge
+### The challenges
+
+- Section 4: Coding Exercise 4- Snowman Logo:
+Find the entity code for snowman and registered trade mark. Use the snowman entity code and the registered trademark entity code to create a logo for "Snowman Productions". 
+The snowman should be in front of the words and the registered trademark should be at the end of the words and should be in superscript. This exercise is to practice using and understanding entity codes, as well as superscript and subscript tags.
 
 ### Screenshot
 
