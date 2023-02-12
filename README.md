@@ -48,6 +48,8 @@ Create a 4X3 table with proper headings. The table must have a row of headings a
 
 ### What I learned
 
+- Importance of making sure to associate the "for" attribute in label and the "id" attribute in input in forms.
+
 ### Continued development
 
 ### Useful resources
