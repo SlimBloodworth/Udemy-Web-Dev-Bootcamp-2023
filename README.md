@@ -41,6 +41,7 @@ Create a 4X3 table with proper headings. The table must have a row of headings a
 - CSS
 - Flexbox
 - CSS Grid
+- JavaScript
 - VSCode
 - BASH terminal
 - Git
