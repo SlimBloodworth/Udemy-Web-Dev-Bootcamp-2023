@@ -31,6 +31,7 @@ Create a 4X3 table with proper headings. The table must have a row of headings a
 
 ### Links
 
+- [Live Site](https://slimbloodworth.github.io/Udemy-Web-Dev-Bootcamp-2023/)
 - [Udemy Web Developer Bootcamp 2023 with Certificate](https://www.udemy.com/course/the-web-developer-bootcamp/)
 
 ## My process
