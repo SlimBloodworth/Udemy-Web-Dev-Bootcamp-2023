@@ -128,6 +128,51 @@
                 </div>
                 <h3>Checkboxes, Radio Buttons, and Selects</h3>
                 <!-- Checkboxes -->
+                <div>
+                    <h4>Checkboxes</h4>
+                    <div>
+                        <p>Checked</p>
+                        <form action="/nowhere">
+                            <input type="checkbox" id="checkbox-A" name="checkbox-A" checked>
+                            <label for="checkbox-A">Checkbox A</label>
+                        </form>
+                        <p>Not Checked</p>
+                        <form action="/nowhere">
+                            <input type="checkbox" id="checkbox-B" name="checkbox-B">
+                            <label for="checkbox-B">Checkbox B</label>
+                        </form>
+                    </div>
+                    <!-- Radio Buttons-->
+                    <h4>Radio Buttons</h4>
+                    <div>
+                        <form action="/nowhere">
+                            <input type="radio" id="Radio Button A" name="radio-btn" value="A" checked>
+                            <label for="Radio Button A">Radio Button A</label>
+                            <input type="radio" id="Radio Button B" name="radio-btn" value="B">
+                            <label for="Radio Button B">Radio Button B</label>
+                            <input type="radio" id="Radio Button C" name="radio-btn" value="C">
+                            <label for="Radio Button C">Radio Button C</label>
+                            <div>
+                                <button>Submit</button>
+                                <p>*Note - address bar output: ".../nowhere?radio-btn=A"<br> "/nowhere" is the form action="/nowhere".<br> "radio-btn" is the name="radio-btn".<br> "A" is the value="A" (B or C depending which radio button was submitted with
+                                    the submit button).
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                    <h4>Selects</h4>
+                    <div>
+                        <form action="/nowhere">
+                            <label for="options">Please Select an option</label>
+                            <select name="option" id="options">
+                                <option value="A">Option A</option>
+                                <option value="B">Option B</option>
+                                <option value="C">Option C</option>
+                            </select>
+                            <div><button>Submit</button></div>
+                        </form>
+                    </div>
+                </div>
         </section>
     </main>
     <footer>
