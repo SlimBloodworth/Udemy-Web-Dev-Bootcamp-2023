@@ -52,6 +52,7 @@ Create a 4X3 table with proper headings. The table must have a row of headings a
 
 - Importance of making sure to associate the "for" attribute in label and the "id" attribute in input in forms.
 - Importance of the Name attribute for the input in a form.
+- What to look for and how to build a search form.
 
 ### Continued development
 
