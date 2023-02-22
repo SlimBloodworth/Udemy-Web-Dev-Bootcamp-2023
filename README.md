@@ -21,11 +21,30 @@ This is where I will keep the majority of the exercises for this course as well.
 ### The challenges
 
 - Section 4: Coding Exercise 4- Snowman Logo:
-Find the entity code for snowman and registered trade mark. Use the snowman entity code and the registered trademark entity code to create a logo for "Snowman Productions". 
+Find the entity code for snowman and registered trade mark. Use the snowman entity code and the registered trademark entity code to create a logo for "Snowman Productions".
 The snowman should be in front of the words and the registered trademark should be at the end of the words and should be in superscript. This exercise is to practice using and understanding entity codes, as well as superscript and subscript tags.
 
 - Section 5: Coding Exercise 5 - Tables Practice:
 Create a 4X3 table with proper headings. The table must have a row of headings at the top and use proper sematic elements. Use the following elements: table,thead, th, tr, tbody, and td. Create the table using the following information: Subscription | Price | Support Free | Free | N/A Personal | $9.99 | Weekdays Business | $49.99 | 24/7.
+
+- Section 5: Coding Exercise 6 - Forms Practice:
+Write a simple form with the following inputs:
+
+1 Username
+
+- a. Text Input
+- b. Should have placeholder text of 'username'
+- c. Make sure to properly label the input (using id/for attributes)
+
+2 Password
+
+- a. Password Input
+- b. Should have placeholder text of 'password'
+- c. Make sure to properly label the input (using id/for attributes)
+
+3 A Button
+
+- a. With the inner text 'Register'
 
 ### Screenshot
 
