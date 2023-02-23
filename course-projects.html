@@ -21,6 +21,45 @@
     <h1>Course Projects</h1>
     <main>
         <section>
+            <h2>HTML Course Project</h2>
+            <h3>Section 5: Create A Marathon Registration Form</h3>
+            <h4>Challenge:</h4>
+            <p>The form must have form validations, labels, radio buttons, selects, and a registration button.</p>
+            <form action="/marathon">
+                <h3>Marathon Registration Form</h3>
+                <div>
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required>
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" required>
+                </div>
+                <div>
+                    <p>Select a race:</p>
+                    <label for="fun-run-5k">Fun Run 5k</label>
+                    <input type="radio" id="fun-run-5k" name="marathon" value="fun-run"> <br>
+                    <label for="half-marathon">Half Marathon</label>
+                    <input type="radio" id="half-marathon" name="marathon" value="half-marathon"> <br>
+                    <label for="full-marathon">Full Marathon</label>
+                    <input type="radio" id="full-marathon" name="marathon" value="full-marathon">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+                <div>
+                    <label for="age-group">Select Age Group</label>
+                    <select name="age" id="age-group" required>
+                        <option value="minors">Under 18</option>
+                        <option value="adult-1">18-30</option>
+                        <option value="adult-2">31-40</option>
+                        <option value="adult-3">41-55</option>
+                        <option value="senior">55+</option>
+                    </select>
+                </div>
+                <div><button>Register!</button></div>
+            </form>
 
         </section>
     </main>

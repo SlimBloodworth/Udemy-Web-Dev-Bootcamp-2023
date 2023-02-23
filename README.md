@@ -1,7 +1,8 @@
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
+  - [The challenges](#the-challenges)
+  - [The Projects](#the-projects)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -19,6 +20,10 @@ There are 61 Sections to this course. I recently completed the Git and GitHub Bo
 This is where I will keep the majority of the exercises for this course as well. Not every exercise will be included here, this course has a sandbox for their exercises, but I will include the ones that I feel are relevant and/or want to get some practice on.
 
 ### The challenges
+
+#### HTML exercises
+
+The exercises can be viewed on the [HTML exercises page](https://slimbloodworth.github.io/Udemy-Web-Dev-Bootcamp-2023/html-exercises.html).
 
 - Section 4: Coding Exercise 4- Snowman Logo:
 Find the entity code for snowman and registered trade mark. Use the snowman entity code and the registered trademark entity code to create a logo for "Snowman Productions".
@@ -45,6 +50,14 @@ Write a simple form with the following inputs:
 3 A Button
 
 - a. With the inner text 'Register'
+
+#### CSS exercises
+
+### The Projects
+
+The projects can be viewed on the [course projects page](https://slimbloodworth.github.io/Udemy-Web-Dev-Bootcamp-2023/course-projects.html).
+
+- Section 5 HTML Project:
 
 ### Screenshot
 
