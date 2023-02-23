@@ -57,7 +57,9 @@ Write a simple form with the following inputs:
 
 The projects can be viewed on the [course projects page](https://slimbloodworth.github.io/Udemy-Web-Dev-Bootcamp-2023/course-projects.html).
 
-- Section 5 HTML Project:
+- Section 5 HTML Project: Create a marathon registration form:
+The form must have form validations, labels, radio buttons, selects, and a registration button.
+
 
 ### Screenshot
 
