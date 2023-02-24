@@ -38,3 +38,16 @@
     background-color: #008000;
     color: #ffebcd;
 }
+
+
+/*Section 8: Coding Exercise 8 - Hipster Logo*/
+
+.purple-grain {
+    font-size: 40px;
+    font-family: monospace;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 20px;
+    text-decoration: underline #dda0dd wavy;
+}
