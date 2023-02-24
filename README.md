@@ -53,6 +53,17 @@ Write a simple form with the following inputs:
 
 #### CSS exercises
 
+- Section 8: Coding Exercise 8 - Hipster Logo
+Use the following styles to create a logo for Purple Grain Vodka:
+
+- a. Uppercase all letters without touching the HTML
+- b. Set the font family to monospace
+- c. Center align the text
+- d. Set the font weight to 100
+- e. Set the text size to 40px
+- f. Set the spacing between the letters to 20px
+- g. Add a wavy plum underline
+
 ### The Projects
 
 The projects can be viewed on the [course projects page](https://slimbloodworth.github.io/Udemy-Web-Dev-Bootcamp-2023/course-projects.html).
