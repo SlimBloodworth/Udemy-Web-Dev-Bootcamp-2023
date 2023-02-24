@@ -101,6 +101,8 @@ The form must have form validations, labels, radio buttons, selects, and a regis
 
 - [Code Generator - CSS](https://html-css-js.com/css/generator/text-shadow/)
 
+- [Color Codes](https://htmlcolorcodes.com/color-names/)
+
 ## Author
 
 - Website - [Michelle Renee](https://slimbloodworth.editorx.io/portfolio)
