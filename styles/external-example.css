@@ -14,3 +14,27 @@
     background-color: green;
     color: blanchedalmond;
 }
+
+
+/*RGB Colors*/
+
+.external-rgb {
+    color: #8b008b;
+}
+
+.external-rgb-btn {
+    background-color: #008000;
+    color: rgb(255, 235, 205);
+}
+
+
+/*HEX Colors*/
+
+.external-hex {
+    color: #8b008b;
+}
+
+.external-hex-btn {
+    background-color: #008000;
+    color: #ffebcd;
+}
