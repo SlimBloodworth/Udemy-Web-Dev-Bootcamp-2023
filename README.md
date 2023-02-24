@@ -100,6 +100,8 @@ The form must have form validations, labels, radio buttons, selects, and a regis
 
 - [Emmet Shortcut Cheat Sheet](https://docs.emmet.io/cheat-sheet/)
 
+- [Code Generator - CSS](https://html-css-js.com/css/generator/text-shadow/)
+
 ## Author
 
 - Website - [Michelle Renee](https://slimbloodworth.editorx.io/portfolio)
