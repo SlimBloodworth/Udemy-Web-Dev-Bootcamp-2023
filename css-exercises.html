@@ -6,6 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS exercises</title>
+    <!--Internal Style Sheet-->
+    <style>
+        .internal-h4 {
+            color: darkred;
+        }
+        
+        .internal-btn {
+            background-color: lightskyblue;
+        }
+    </style>
 </head>
 
 <body>
@@ -20,7 +30,28 @@
         </nav>
     </header>
     <h1>CSS Exercises</h1>
-    <main></main>
+    <main>
+        <section>
+            <!--Inline CSS Styles -->
+            <h2>Inline CSS</h2>
+            <p>The following uses inline CSS:</p>
+            <div>
+                <h4 style="color:darkblue">Hello World</h4>
+                <button style="background-color:lightgreen">I'm a button</button>
+                <p><b>Useful for:</b> HTML Emails</p>
+                <p><b>Cons:</b> Styles cannot be shared without duplicating them. Styles cannot be shared between documents.</p>
+            </div>
+        </section>
+        <section>
+            <!-- Internal Style Sheet-->
+            <h2>Internal Styles</h2>
+            <p>The following uses an internal style sheet</p>
+            <div>
+                <h4 class="internal-h4">Hello World</h4>
+                <button class="internal-btn">I'm a button</button>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
