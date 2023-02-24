@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS exercises</title>
+    <!-- External Stylesheet-->
+    <link rel="stylesheet" href="external-example.css">
     <!--Internal Style Sheet-->
     <style>
         .internal-h4 {
@@ -43,13 +45,27 @@
             </div>
         </section>
         <section>
-            <!-- Internal Style Sheet-->
-            <h2>Internal Styles</h2>
-            <p>The following uses an internal style sheet</p>
+            <!-- Internal StyleSheet-->
+            <h2>Internal Stylesheet</h2>
+            <p>The following uses an internal stylesheet</p>
             <div>
                 <h4 class="internal-h4">Hello World!</h4>
                 <h4 class="internal-h4">I'm Michelle</h4>
                 <button class="internal-btn">I'm a button</button>
+                <p><b>Pros:</b> Styles can be used across elements within the page.</p>
+                <p><b>Cons:</b> Styles cannot be shared between documents/pages.</p>
+            </div>
+        </section>
+        <section>
+            <!-- External StyleSheet "external-examples.css" -->
+            <h2>External Stylesheet</h2>
+            <p>The following uses an external stylesheet</p>
+            <div>
+                <h4 class="external-h4">Hello World!</h4>
+                <h4 class="external-h4 external-myname">I'm Michelle</h4>
+                <button class="external-btn">I'm a button</button>
+                <p><span class="external-span">Pros:</span> Styles can be used across elements and be shared between documents/pages.</p>
+                <p><span class="external-span">Cons</span> Styles cannot be shared between documents/pages.</p>
             </div>
         </section>
     </main>
