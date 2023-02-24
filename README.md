@@ -103,6 +103,8 @@ The form must have form validations, labels, radio buttons, selects, and a regis
 
 - [Color Codes](https://htmlcolorcodes.com/color-names/)
 
+- [CSS Web Safe Font Stacks](https://www.cssfontstack.com)
+
 ## Author
 
 - Website - [Michelle Renee](https://slimbloodworth.editorx.io/portfolio)
