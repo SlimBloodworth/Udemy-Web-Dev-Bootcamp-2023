@@ -53,7 +53,7 @@ Write a simple form with the following inputs:
 
 #### CSS exercises
 
-- Section 8: Coding Exercise 8 - Hipster Logo
+- Section 6: Coding Exercise 8 - Hipster Logo
 Use the following styles to create a logo for Purple Grain Vodka:
 
 - a. Uppercase all letters without touching the HTML
