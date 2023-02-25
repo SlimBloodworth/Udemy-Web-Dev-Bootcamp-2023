@@ -114,6 +114,8 @@ The form must have form validations, labels, radio buttons, selects, and a regis
 
 - [Color Codes](https://htmlcolorcodes.com/color-names/)
 
+- [Color Pallet Generator](https://coolors.co)
+
 - [CSS Web Safe Font Stacks](https://www.cssfontstack.com)
 
 ## Author
