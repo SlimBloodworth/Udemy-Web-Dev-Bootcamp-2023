@@ -129,6 +129,8 @@ The form must have form validations, labels, radio buttons, selects, and a regis
 
 - [CSS Web Safe Font Stacks](https://www.cssfontstack.com)
 
+- [Specificity Calculator](https://specificity.keegan.st)
+
 ## Author
 
 - Website - [Michelle Renee](https://slimbloodworth.editorx.io/portfolio)
