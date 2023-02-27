@@ -105,7 +105,7 @@
 
 /*Pseudo Elements*/
 
-.pseu-elm p::first-letter {
+.external-pseu-elm p::first-letter {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 2rem;
