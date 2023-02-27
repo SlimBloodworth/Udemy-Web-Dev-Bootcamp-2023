@@ -51,3 +51,63 @@
     letter-spacing: 20px;
     text-decoration: underline #dda0dd wavy;
 }
+
+
+/*Pseudo Classes*/
+
+.external-pseudo a {
+    text-decoration: none;
+}
+
+.hov a:hover {
+    color: #ff0000;
+    background-color: #90ee90;
+}
+
+.act a:active {
+    color: #90ee90;
+    background-color: #ff0000;
+}
+
+.nth-type:nth-of-type(3n) {
+    color: #ff0000;
+}
+
+.nth-type-sing:nth-of-type(3) {
+    color: #ff0000;
+}
+
+
+/*Section 7: Coding Exercise 11: Checkerboard*/
+
+#check-board {
+    display: flex;
+    margin: 0 auto;
+    width: 500px;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.square:nth-of-type(even) {
+    background-color: black;
+}
+
+.square:nth-of-type(odd) {
+    background-color: red;
+}
+
+
+/*Pseudo Elements*/
+
+.pseu-elm p::first-letter {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #0000cd;
+}

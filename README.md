@@ -70,6 +70,11 @@ The exercises can viewed on the [CSS exercises page](https://slimbloodworth.gith
 - f. Set the spacing between the letters to 20px
 - g. Add a wavy plum underline
 
+#### Section 7: Coding Exercise 11 - Checkerboard
+
+Create a simple checkerboard pattern by making the even squares black and the odd squares red.
+The solution needs to select both the even and odd squares.
+
 ### The Projects
 
 The projects can be viewed on the [course projects page](https://slimbloodworth.github.io/Udemy-Web-Dev-Bootcamp-2023/course-projects.html).
