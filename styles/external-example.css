@@ -111,3 +111,22 @@
     font-size: 2rem;
     color: #0000cd;
 }
+
+
+/*Display Property*/
+
+.block-display {
+    background-color: #90ee90;
+}
+
+.inline-display {
+    background-color: #ffc0cb;
+}
+
+#disp-in {
+    background-color: #ffc0cb;
+}
+
+#disp-blk {
+    background-color: #90ee90;
+}
