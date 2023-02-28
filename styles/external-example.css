@@ -137,4 +137,25 @@
 #disp-blk {
     border: 1px solid #4f4e4e;
     margin: 4px 0px;
+    padding: 2px;
+    width: 20%;
+    height: 10%;
+}
+
+.in-block {
+    height: 200px;
+    width: 200px;
+    background-color: #2ab52a;
+    text-align: center;
+    border: 5px solid black;
+    display: inline-block;
+}
+
+.not {
+    height: 200px;
+    width: 200px;
+    margin-top: 5px;
+    background-color: #2ab52a;
+    text-align: center;
+    border: 5px solid black;
 }
