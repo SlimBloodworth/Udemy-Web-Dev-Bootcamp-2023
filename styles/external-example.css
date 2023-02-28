@@ -130,3 +130,11 @@
 #disp-blk {
     background-color: #90ee90;
 }
+
+.block-display,
+.inline-display,
+#disp-in,
+#disp-blk {
+    border: 1px solid #4f4e4e;
+    margin: 4px 0px;
+}
