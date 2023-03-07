@@ -159,3 +159,33 @@
     text-align: center;
     border: 5px solid black;
 }
+
+
+/* CSS Units */
+
+.examp-percent-unit {
+    width: 250px;
+    height: 250px;
+    background-color: #6d6875;
+}
+
+.inner_examp-percent-unit {
+    background-color: #e5989b;
+    width: 50%;
+    height: 50%;
+}
+
+.examp_em-units {
+    border: 2px solid black;
+    width: 250px;
+    height: 250px;
+    font-size: 16px;
+}
+
+.examp-em-a {
+    font-size: 2em;
+}
+
+.examp-em-b {
+    font-size: 0.5em;
+}
