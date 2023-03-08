@@ -189,3 +189,33 @@
 .examp-em-b {
     font-size: 0.5em;
 }
+
+
+/* Position Property */
+
+#pos-prop-container {
+    display: flex;
+    position: relative;
+}
+
+.pos-prop {
+    width: 150px;
+    height: 150px;
+    background-color: #2ab52a;
+    text-align: center;
+    border: 1px solid black;
+    margin: 1rem;
+}
+
+.relative {
+    position: relative;
+    background-color: #85ca85;
+    font-size: 0.8em;
+    top: 50px;
+}
+
+#pos-prop__absolute {
+    position: absolute;
+    background-color: #90ee90;
+    top: 4em;
+}
