@@ -84,6 +84,8 @@ The projects can be viewed on the [course projects page](https://slimbloodworth.
 - ***Section 5 HTML Project:*** Create a marathon registration form:
 The form must have form validations, labels, radio buttons, selects, and a registration button.
 
+- ***Section 9 CSS Button Hover Project:*** Create a hover effect for a button using transform and transition.
+
 ### Screenshot
 
 ### Links

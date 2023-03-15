@@ -1,0 +1,32 @@
+.css-section {
+    margin-top: 2rem;
+}
+
+
+/*Section 9: CSS Button Hover Effect Code Along*/
+
+.hov-btn-container {
+    width: 250px;
+    height: 250px;
+    background-color: #151b29;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hov-btn__button {
+    background: none;
+    color: #ffa260;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 250ms;
+}
+
+.hov-btn__button:hover {
+    border-color: #f1ff5c;
+    color: #fff;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
