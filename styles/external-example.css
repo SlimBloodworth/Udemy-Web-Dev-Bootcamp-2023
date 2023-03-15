@@ -247,10 +247,15 @@
 .extern__trans-circ:hover {
     background-color: #2ab52a;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 
 /*timing-function*/
+
+.timing-function-container {
+    cursor: pointer;
+}
 
 .timing-function-container .extern-time {
     width: 100px;
@@ -296,6 +301,7 @@
     text-align: center;
     margin: 20px auto;
     font-weight: lighter;
+    cursor: pointer;
 }
 
 .css-trans:nth-of-type(2n) {
