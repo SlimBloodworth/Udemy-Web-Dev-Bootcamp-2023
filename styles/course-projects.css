@@ -30,3 +30,10 @@
     transform: translateY(-0.25em);
     cursor: pointer;
 }
+
+
+/*Section 9 Photo Blog Project*/
+
+.photo-blog {
+    border: 5px solid black;
+}
