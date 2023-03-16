@@ -86,6 +86,8 @@ The form must have form validations, labels, radio buttons, selects, and a regis
 
 - ***Section 9 CSS Button Hover Project:*** Create a hover effect for a button using transform and transition.
 
+- ***Section 9 Photo Blog Project:***
+
 ### Screenshot
 
 ### Links
