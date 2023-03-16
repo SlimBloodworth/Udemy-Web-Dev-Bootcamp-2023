@@ -37,3 +37,19 @@
 .photo-blog {
     border: 5px solid black;
 }
+
+.photo-blog__nav {
+    text-transform: uppercase;
+    font-size: 1.56em;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    margin-left: calc(10%/9);
+    padding: 1.25em 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.photo-blog__img {
+    width: 30%;
+    margin: calc(10%/9);
+    /*margin: calc(10%/6); <-- was from video lesson, but didn't space the images the way I needed. This is due to the way I have the img set-up in the HTML.*/
+}

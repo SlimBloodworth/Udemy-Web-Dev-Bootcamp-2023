@@ -86,7 +86,7 @@ The form must have form validations, labels, radio buttons, selects, and a regis
 
 - ***Section 9 CSS Button Hover Project:*** Create a hover effect for a button using transform and transition.
 
-- ***Section 9 Photo Blog Project:***
+- ***Section 9 Photo Blog Project:*** Create a photo blog: add, size and space images in a responsive manner. Create and size line under the name. Make name all caps and change font. Align name and line under name with images bringing everything into alignment.
 
 ### Screenshot
 
