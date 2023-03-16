@@ -48,6 +48,12 @@
     font-family: 'Raleway', sans-serif;
 }
 
+.photo-blog__photographer {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+}
+
 .photo-blog__img {
     width: 30%;
     margin: calc(10%/9);
