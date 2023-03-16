@@ -38,19 +38,21 @@
     border: 5px solid black;
 }
 
-.photo-blog__nav {
+.photo-blog__nav,
+.photo-blog__photographer {
     text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+
+.photo-blog__nav {
     font-size: 1.56em;
     border-bottom: 2px solid #f1f1f1;
     width: 30%;
     margin-left: calc(10%/9);
     padding: 1.25em 0;
-    font-family: 'Raleway', sans-serif;
 }
 
 .photo-blog__photographer {
-    text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
     font-style: italic;
 }
 
