@@ -357,9 +357,13 @@
 .flex-direction__container {
     background-color: #003049;
     width: 90%;
-    height: 1300px;
+    height: 500px;
     margin: 0 auto;
     border: 5px solid #003049;
+}
+
+.flex-div-container {
+    height: 120px;
 }
 
 .flex-div {
@@ -367,21 +371,39 @@
     height: 100px;
 }
 
-.flex-direction__container-a {
+.flex-direction__container-row {
     display: flex;
 }
 
-.flex-direction__container-b {
+.flex-direction__container-row-rev {
     display: flex;
     flex-direction: row-reverse;
 }
 
-.flex-direction__container-c {
+.flex-direction__container-col {
     display: flex;
     flex-direction: column;
 }
 
-.flex-direction__container-d {
+.flex-direction__container-col-rev {
     display: flex;
     flex-direction: column-reverse;
 }
+
+
+/*Align-Content*/
+
+.ali-con-cent {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+
+/* .ali-con-cent .flex-div:nth-of-type(5) {
+    align-self: flex-end;
+} */
