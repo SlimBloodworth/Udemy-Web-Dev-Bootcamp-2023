@@ -359,7 +359,7 @@
     width: 90%;
     height: 500px;
     margin: 0 auto;
-    border: 5px solid #003049;
+    /* border: 5px solid #003049; */
 }
 
 .flex-div-container {
@@ -430,8 +430,18 @@
 
 /*Flex Sizing Properties*/
 
+.flex-section {
+    margin-top: 1rem;
+}
+
+.flex-size-container {
+    border: 5px solid #003049;
+    /* margin-top: 1rem; */
+}
+
 .flex-basis,
-.flex-grow {
+.flex-grow,
+.flex-shrink {
     display: flex;
     justify-content: center;
 }
@@ -456,5 +466,17 @@
 }
 
 .flex-grow div:nth-of-type(5) {
-    flex-grow: 1;
+    flex-grow: 2;
+}
+
+.flex-shrink .flex-div {
+    width: 400px;
+}
+
+.flex-shrink div:nth-of-type(1) {
+    flex-shrink: 2;
+}
+
+.flex-shrink div:nth-of-type(3) {
+    flex-shrink: 3;
 }
