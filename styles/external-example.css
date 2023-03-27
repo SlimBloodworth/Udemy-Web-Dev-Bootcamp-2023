@@ -480,3 +480,37 @@
 .flex-shrink div:nth-of-type(3) {
     flex-shrink: 3;
 }
+
+
+/*Flex Shorthand*/
+
+.shorthand {
+    width: 80%;
+    margin: 0 auto;
+    height: 500px;
+    display: flex;
+}
+
+.shorthand>div {
+    text-align: center;
+}
+
+.sidebar {
+    background-color: #6930c3;
+    border: 2px solid white;
+    /*passing in one, unitless value will be treated as flex-grow*/
+    flex: 1;
+}
+
+.main-content {
+    background-color: #80ffdb;
+    /*passing in 2 values and one is a width, the 2nd value is treated as flex-basis*/
+    flex: 2 2em;
+}
+
+.sidebar-three-val {
+    background-color: #6930c3;
+    border: 2px solid white;
+    /*passing in 3 values - the 1st is grow, the 2nd is SHRINK, the 3rd is basis*/
+    flex: 1 2 2em;
+}
