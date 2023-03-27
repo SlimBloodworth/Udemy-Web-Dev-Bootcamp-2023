@@ -514,3 +514,113 @@
     /*passing in 3 values - the 1st is grow, the 2nd is SHRINK, the 3rd is basis*/
     flex: 1 2 2em;
 }
+
+
+/*Section 10: Responsive Design and Media Queries*/
+
+.nav-demo__font {
+    font-size: 6em;
+    text-align: center;
+}
+
+.nav-demo {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-demo__ul,
+.nav-demo__li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-demo__font {
+    color: #4f4e4e;
+}
+
+.nav-demo__ul {
+    /* outline: 1px solid red; */
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/*change color*/
+
+@media(min-width: 500px) {
+    .nav-demo__font {
+        color: red;
+    }
+}
+
+@media(min-width: 700px) {
+    .nav-demo__font {
+        color: orange;
+    }
+}
+
+@media(min-width: 850px) {
+    .nav-demo__font {
+        color: yellow;
+    }
+}
+
+@media(min-width: 900px) {
+    .nav-demo__font {
+        color: green;
+    }
+}
+
+@media(min-width: 950px) {
+    .nav-demo__font {
+        color: blue;
+    }
+}
+
+@media(min-width: 1000px) {
+    .nav-demo__font {
+        color: indigo;
+    }
+}
+
+@media(min-width: 1050px) {
+    .nav-demo__font {
+        color: violet;
+    }
+}
+
+@media(min-width: 1200px) {
+    .nav-demo__font {
+        color: #4f4e4e;
+    }
+}
+
+@media(orientation: landscape) {
+    .nav-container {
+        background-color: skyblue;
+    }
+}
+
+
+/* Change font size*/
+
+@media (max-width: 768px) {
+    .nav-demo__font {
+        font-size: 4em;
+    }
+    .nav-demo,
+    .nav-demo__ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .nav-demo__font {
+        font-size: 3em;
+    }
+}
