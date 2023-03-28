@@ -61,3 +61,11 @@
     margin: calc(10%/9);
     /*margin: calc(10%/6); <-- was from video lesson, but didn't space the images the way I needed. This is due to the way I have the img set-up in the HTML. <--white space.*/
 }
+
+
+/*Pricing Panel Project*/
+
+.pricing-panel-project {
+    border: 2px solid black;
+    margin-top: 2rem;
+}
