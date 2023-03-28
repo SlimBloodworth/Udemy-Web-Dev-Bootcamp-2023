@@ -1,3 +1,6 @@
+/*Pricing Panel Project font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
 .css-section {
     margin-top: 2rem;
 }
@@ -65,7 +68,126 @@
 
 /*Pricing Panel Project*/
 
+.pp-proj-ttl {
+    margin-top: 2rem;
+}
+
 .pricing-panel-project {
     border: 2px solid black;
-    margin-top: 2rem;
+    background-color: #60a9ff;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px 25px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.pricing-plan {
+    border-bottom: 1px solid #e1f1ff;
+}
+
+.pricing-plan:last-child {
+    border-bottom: none;
+}
+
+.pricing-img {
+    margin-bottom: 25px;
+    max-width: 100%;
+}
+
+.pricing-header {
+    color: #888;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.pricing-features {
+    list-style-type: none;
+    margin: 50px 0 25px;
+    color: #016ff9;
+}
+
+.pricing-features-item {
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 15px 0;
+    border-top: 1px solid #e1f1ff;
+}
+
+.pricing-features-item:last-child {
+    border-bottom: 1px solid #e1f1ff;
+}
+
+.pricing-price {
+    color: #016ff9;
+    /*display block so that it takes up its own chunk*/
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.pp-btn {
+    background-color: transparent;
+    border: 1px solid #9dd1ff;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 15px 35px;
+    margin: 25px 0;
+    transition: background-color 250ms ease-in-out;
+}
+
+.pp-btn:hover,
+.pp-btn:focus {
+    background-color: #e1f1ff;
+}
+
+.pp-btn.is-featured {
+    background-color: #48aaff;
+}
+
+.pp-btn.is-featured:hover,
+.pp-btn.is-featured:focus {
+    background-color: #269aff;
+}
+
+.is-featured-txt {
+    color: #e1f1ff;
+}
+
+.pricing-button {
+    text-decoration: none;
+    color: #348efe;
+}
+
+
+/*Pricing panel project responsive*/
+
+
+/*For screens larger that mobile*/
+
+@media(min-width: 900px) {
+    .panel {
+        flex-direction: row;
+    }
+    .pricing-plan {
+        border-bottom: none;
+        border-right: 1px solid #e1f1ff;
+        padding: 25px 50px;
+    }
+    .pricing-plan:last-child {
+        border-right: none;
+    }
 }
