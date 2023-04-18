@@ -106,6 +106,7 @@ The form must have form validations, labels, radio buttons, selects, and a regis
 - Flexbox
 - CSS Grid
 - JavaScript
+- Bootstrap
 - VSCode
 - BASH terminal
 - Git
