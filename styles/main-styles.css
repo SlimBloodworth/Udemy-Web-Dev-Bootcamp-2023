@@ -12,6 +12,12 @@ body,
 
 /* -- Primary Nav --*/
 
-.primary-navigation a {
+.primary-nav a {
     text-decoration: none;
+}
+
+.primary-nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
