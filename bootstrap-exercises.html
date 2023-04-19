@@ -31,6 +31,7 @@
     </div>
     <main>
         <h3 class="=display-3">Section 12: lesson 123</h3>
+        <!--Bootstrap Buttons-->
         <div class="container">
             <h2 class="display-2">Bootstrap Buttons</h2>
             <button type="button" class="btn btn-primary">Primary</button>
@@ -47,15 +48,56 @@
             <p>These can be customized as needs dictate.</p>
         </div>
         <h3 class="=display-3">Section 12: lesson 124</h3>
+        <!--Bootstrap Typography-->
         <div class="container">
             <h2 class="display-2">Bootstrap Typography</h2>
             <p class="display-4">.display-4: Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <p class="lead">.lead: Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <blockquote class="blockquote">.blockquote: Lorem, ipsum dolor sit amet consectetur adipisicing elit.</blockquote>
         </div>
+        <!-- Bootstrap Utilities-->
         <div class="container">
             <h2 class="display-2">Utilities</h2>
             <p><span class="text-success">Success</span>, <span class="text-warning">Warning</span>, <span class="text-danger">Danger</span></p>
+        </div>
+        <!--Bootstrap Badges, Button Groups, and Alerts-->
+        <div class="container">
+            <h3 class="=display-3">Section 12: lesson 125</h3>
+            <h2 class="display-2">Badges</h2>
+            <button type="button" class="btn btn-outline-primary">inbox <span class="badge text-bg-secondary">3</span></button>
+            <button type="button" class="btn btn-danger">spam <span class="badge rounded-pill text-bg-light">5</span></button>
+            <h2 class="display-2">Button Group</h2>
+            <button type="button" class="btn btn-warning">One</button>
+            <button type="button" class="btn btn-warning">Two</button>
+            <button type="button" class="btn btn-warning">Three</button>
+            <p>Button Groups require an appropriate role attribute and an explicit label to ensure accessibility.</p>
+            <p>use role="group" for button groups, use role="toolbar" for button toolbars.</p>
+            <p>use aria-label="example_label_name" to label them.</p>
+            <!--Button Groups require an appropriate role attribute and an explicit label to ensure accessibility-->
+            <!--use role="group" for button groups, use role="toolbar" for button toolbars.-->
+            <!--use aria-label="example_label_name" to label them.-->
+            <div class="btn-group" role="group" aria-label="button-group-example">
+                <button type="button" class="btn btn-warning">One</button>
+                <button type="button" class="btn btn-warning">Two</button>
+                <button type="button" class="btn btn-warning">Three</button>
+            </div>
+            <h2 class="display-2">Alerts</h2>
+            <!--Provide contextual feedback messages for typical user actions-->
+            <p>Alerts provide contextual feedback messages for typical user actions.</p>
+            <div class="alert alert-warning" role="alert">CAUTION: Lorem, ipsum dolor.</div>
+            <p>alert-heading</p>
+            <div class="alert alert-warning" role="alert">
+                <h3 class="alert-heading">CAUTION:</h3> Lorem, ipsum dolor.</div>
+            <p>Dismissible alert</p>
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                <h3 class="alert-heading">CAUTION:</h3> Lorem, ipsum dolor.
+                <button type="button" aria-label="Close" class="btn-close" data-bs-dismiss="alert"></button>
+                <!--alert-dismissible positions the close icon-->
+                <!--fade show moves close icon to to right corner, and adds ease out transition when clicked-->
+                <!--class="btn-close" creates the close icon-->
+                <!--data-bs-dismiss="alert" makes it function when clicked, is particular to bootstrap. Must have bootstrap js flies in order to work.-->
+                <!--<span aria-hidden="true">&times;</span> creates the close icon, but showed up as a second close behind.So I removed it. -->
+            </div>
         </div>
     </main>
     <footer class="container">
