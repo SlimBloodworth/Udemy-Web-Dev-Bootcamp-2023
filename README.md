@@ -4,6 +4,7 @@
   - [The challenges](#the-challenges)
     - [HTML Exercises](#html-exercises)
     - [CSS Exercises](#css-exercises)
+    - [Bootstrap Exercises](#bootstrap-exercises)
   - [The Projects](#the-projects)
   - [Screenshot](#screenshot)
   - [Links](#links)
@@ -76,6 +77,20 @@ The exercises can viewed on the [CSS exercises page](https://slimbloodworth.gith
 
 Create a simple checkerboard pattern by making the even squares black and the odd squares red.
 The solution needs to select both the even and odd squares.
+
+#### ***Bootstrap exercises***
+
+The exercises can viewed on the [Bootstrap exercises page](https://slimbloodworth.github.io/Udemy-Web-Dev-Bootcamp-2023/bootstrap-exercises.html).
+
+***Section 12: Coding Exercise 13 - Bootstrap Basics Practice***
+
+Using the given HTML:
+
+- 1 Make the section a bootstrap container.
+- 2 Give the header white text, a dark background, and center-aligned text.
+- 3 Make the div an alert ('warning' color). Set the role attribute to alert, for accessibility purposes!
+- 4 Make the first button a green bootstrap button.
+- 5 Make the second button a red bootstrap button.
 
 ### ***The Projects***
 
