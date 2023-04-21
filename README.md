@@ -92,6 +92,9 @@ Using the given HTML:
 - 4 Make the first button a green bootstrap button.
 - 5 Make the second button a red bootstrap button.
 
+***Section 12: Coding Exercise 14 - Bootstrap Grid Practice***
+Recreate the given grid from the lesson.
+
 ### ***The Projects***
 
 The projects can be viewed on the [course projects page](https://slimbloodworth.github.io/Udemy-Web-Dev-Bootcamp-2023/course-projects.html).
