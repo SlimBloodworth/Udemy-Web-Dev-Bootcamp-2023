@@ -21,3 +21,13 @@ body,
     justify-content: space-evenly;
     list-style-type: none;
 }
+
+.connect {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.connect a {
+    text-decoration: none;
+}
