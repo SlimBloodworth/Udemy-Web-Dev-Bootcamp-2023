@@ -141,6 +141,34 @@
                 <div class="col-4 bg-warning">I am 4 columns</div>
                 <div class="col-8 bg-primary">I am 8 columns</div>
             </div>
+            <p>Just using col without a number will split to units evenly.</p>
+            <div class="row">
+                <div class="col bg-info">1 of 4</div>
+                <div class="col bg-primary">2 of 4</div>
+                <div class="col bg-secondary">3 of 4</div>
+                <div class="col bg-warning">4 of 4</div>
+            </div>
+            <p>Setting a size on some columns and leaving col on others makes col units adjust to fit.</p>
+            <div class="row">
+                <div class="col bg-info">1 of 4</div>
+                <!-- setting a size on some columns and just col on others makes to col units adjust to fit.-->
+                <div class="col-2 bg-primary">2 of 4: auto-sized.</div>
+                <div class="col bg-secondary">3 of 4</div>
+                <div class="col bg-warning">4 of 4</div>
+            </div>
+            <div class="row">
+                <div class="col bg-warning">col</div>
+                <div class="col-2 bg-danger">col-2</div>
+                <div class="col-4 bg-success">col-4</div>
+            </div>
+            <p>Containers can be nested inside of other containers. This adds a small margin.</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col bg-primary">I am in a nested container</div>
+                    <div class="col bg-info">I am in a nested container</div>
+                    <div class="col bg-success">I am in a nested container</div>
+                </div>
+            </div>
         </div>
     </main>
     <footer class="container">
