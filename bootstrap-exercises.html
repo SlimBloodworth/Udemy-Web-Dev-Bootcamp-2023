@@ -185,10 +185,68 @@
                 <div class="col-3 bg-warning">One Quarter</div>
             </div>
         </div>
+        <!-- Responsive Grid -->
+        <!-- The Bootstrap grid only works inside of a container - container class.
+        Need to create a row using the class of row. -->
+        <h3>Responsive Grid</h3>
+        <section class="container">
+            <div class="row">
+                <div class="col-6">I am half of 12 units: Lorem ipsum dolor sit amet.</div>
+                <div class="col-6">I am half of 12 units: Lorem ipsum dolor sit amet.</div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 bg-primary">I am using the col-md breakpoint: I will stack on smaller screens, then one I get to the larger screen size, I will be side by side.</div>
+                <div class="col-md-6 bg-info">I am using the col-md breakpoint: I will stack on smaller screens, then one I get to the larger screen size, I will be side by side.</div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-xl-3 bg-warning">I am col-md-6 col-xl-3: I specify md breakpoints and above and xl breakpoint. On small screens I stack, Medium screens side x side, large I go across side x side.</div>
+                <div class="col-md-6 col-xl-3 bg-success">I am col-md-6 col-xl-3: I specify md breakpoints and above and xl breakpoint. On small screens I stack, Medium screens side x side, large I go across side x side.</div>
+                <div class="col-md-6 col-xl-3 bg-warning">I am col-md-6 col-xl-3: I specify md breakpoints and above and xl breakpoint. On small screens I stack, Medium screens side x side, large I go across side x side.</div>
+                <div class="col-md-6 col-xl-3 bg-success">I am col-md-6 col-xl-3: I specify md breakpoints and above and xl breakpoint. On small screens I stack, Medium screens side x side, large I go across side x side.</div>
+            </div>
+        </section>
+        <h3>Responsive Images</h3>
+        <p>Using img-fluid</p>
+        <ul>
+            <li>Must be in a .container</li>
+            <li>Must be in .row</li>
+            <li>Each image in a .col</li>
+            <li>Add img-fluid class to each image (.img-fluid).</li>
+        </ul>
+        <div class="container">
+            <div class="row">
+                <div class="col"><img src="img/unspalsh_img_1.jpg" class="img-fluid" alt="bird"></div>
+                <div class="col"><img src="img/unsplash_img_2.jpg" class="img-fluid" alt="stars at night"></div>
+                <div class="col"><img src="img/unspalsh_img_3.jpg" class="img-fluid" alt="waterfalls"></div>
+            </div>
+            <p>Can adjust by add col-md-#, col-xl-#, etc</p>
+            <p>This example is col-xl-4 allowing the images to stack on smaller devices, but go across on larger ones.</p>
+            <div class="row">
+                <div class="col-xl-4"><img src="img/unspalsh_img_1.jpg" class="img-fluid" alt="bird"></div>
+                <div class="col-xl-4"><img src="img/unsplash_img_2.jpg" class="img-fluid" alt="stars at night"></div>
+                <div class="col-xl-4"><img src="img/unspalsh_img_3.jpg" class="img-fluid" alt="waterfalls"></div>
+            </div>
+            <p>This example is col-xl-4 col-md-6.</p>
+            <div class="row">
+                <div class="col-xl-4 col-md-6"><img src="img/unspalsh_img_1.jpg" class="img-fluid" alt="bird"></div>
+                <div class="col-xl-4 col-md-6"><img src="img/unsplash_img_2.jpg" class="img-fluid" alt="stars at night"></div>
+                <div class="col-xl-4 col-md-6"><img src="img/unspalsh_img_3.jpg" class="img-fluid" alt="waterfalls"></div>
+            </div>
+            <p>This uses g-0 to eliminate the gutters.</p>
+            <div class="row g-0">
+                <div class="col"><img src="img/unspalsh_img_1.jpg" class="img-fluid" alt="bird"></div>
+                <div class="col"><img src="img/unsplash_img_2.jpg" class="img-fluid" alt="stars at night"></div>
+                <div class="col"><img src="img/unspalsh_img_3.jpg" class="img-fluid" alt="waterfalls"></div>
+            </div>
+        </div>
     </main>
     <footer class="container">
         <p class="text-center">Created by Michelle Renee Bloodworth</p>
-        <div class="contact"><a href="https://michellerenee.dev">michellerenee.dev</a></div>
+        <div class="contact">
+            <a href="https://michellerenee.dev" target="_blank">
+                <p class="text-center">michellerenee.dev</p>
+            </a>
+        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
