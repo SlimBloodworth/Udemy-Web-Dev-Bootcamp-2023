@@ -205,6 +205,7 @@
                 <div class="col-md-6 col-xl-3 bg-success">I am col-md-6 col-xl-3: I specify md breakpoints and above and xl breakpoint. On small screens I stack, Medium screens side x side, large I go across side x side.</div>
             </div>
         </section>
+        <!-- RESPONSIVE IMAGES -->
         <h3>Responsive Images</h3>
         <p>Using img-fluid</p>
         <ul>
@@ -238,6 +239,7 @@
                 <div class="col"><img src="img/unsplash_img_2.jpg" class="img-fluid" alt="stars at night"></div>
                 <div class="col"><img src="img/unspalsh_img_3.jpg" class="img-fluid" alt="waterfalls"></div>
             </div>
+            <!-- GRID UTILITIES -->
             <h3>Useful Grid Utilities</h3>
             <p>Helper Classes. Remember flex-box, Bootstrap uses flex-box terminology because it's built on top of flex-box.</p>
             <h3>Grid Alignment</h3>
@@ -282,7 +284,90 @@
                 <div class="col-3 bg-success"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, culpa! This additional test will cause all the containers to stretch and be equal to this container.</div>
                 <div class="col-3 bg-info align-self-end"> <b>I am align-self-end.</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, culpa!</div>
             </div>
+            <p>Justify Content</p>
+            <p>justify-content is used to control the horizontal spacing</p>
+            <!-- Bootstrap has a border class you can add-->
+            <div class="row border justify-content-start">
+                <div class="col-4 bg-primary">
+                    Default for justify-content is justify-content-start, which aligns to the start of the main axis.
+                </div>
+                <div class="col-4 bg-info">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. At voluptas iusto distinctio nostrum eaque pariatur.
+                </div>
+            </div>
+            <div class="row border justify-content-center">
+                <div class="col-4 bg-primary">
+                    justify-content-center.
+                </div>
+                <div class="col-4 bg-info">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. At voluptas iusto distinctio nostrum eaque pariatur.
+                </div>
+            </div>
+            <div class="row border justify-content-between">
+                <div class="col-4 bg-primary">
+                    justify-content-between.
+                </div>
+                <div class="col-4 bg-info">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. At voluptas iusto distinctio nostrum eaque pariatur.
+                </div>
+            </div>
+            <div class="row border justify-content-end">
+                <div class="col-4 bg-primary">
+                    justify-content-end.
+                </div>
+                <div class="col-4 bg-info">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. At voluptas iusto distinctio nostrum eaque pariatur.
+                </div>
+            </div>
+            <p><b>NOTE</b> all of these utility classes have different variants for different breakpoints/screen sizes. ex: justify-content-sm-center for smaller screens.</p>
+            <div class="row border justify-content-sm-center justify-content-md-start justify-content-lg-between">
+                <div class="col-4 bg-primary">
+                    justify-content-sm-center, justify-content-md-start, justify-content-lg-between.
+                </div>
+                <div class="col-4 bg-info">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. At voluptas iusto distinctio nostrum eaque pariatur.
+                </div>
+            </div>
         </div>
+        <!-- Bootstrap and Forms -->
+        <h3>Bootstrap and Forms</h3>
+        <p>
+            <a href="https://getbootstrap.com/docs/5.3/forms/overview/" target="_blank">Bootstrap Forms Overview Docs</a>
+        </p>
+        <section class="container">
+            <h3>Form Control</h3>
+            <div class="container">
+                <form action="#nowhere">
+                    <!-- form-group will group these things together -->
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <!--form-control-->
+                        <input type="email" class="form-control" id="email" placeholder="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <!--form-control-->
+                        <input type="password" class="form-control" id="password" placeholder="password">
+                    </div>
+                </form>
+                <div class="container">
+                    <p><b>Can use form-control for selects</b></p>
+                    <form action="#nowhere">
+                        <div class="form-group">
+                            <label for="examlpeFormControlSelect1">Select a State</label>
+                            <select name="exampleFormControlSelect1" id="examlpeFormControlSelect1" class="form-control">
+                            <option value="LA">Louisiana</option>
+                            <option value="TX">Texas</option>
+                            <option value="TN">Tennessee</option>
+                            <option value="UT">Utah</option>
+                            <option value="KY">Kentucky</option>
+                            <option value="CO">Colorado</option>
+                        </select>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
     <footer class="container">
         <p class="text-center">Created by Michelle Renee Bloodworth</p>
