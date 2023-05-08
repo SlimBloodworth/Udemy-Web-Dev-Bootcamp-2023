@@ -353,8 +353,10 @@
                 <div class="container">
                     <p><b>Can use form-control for selects</b></p>
                     <form action="#nowhere">
+                        <!--form group -->
                         <div class="form-group">
                             <label for="examlpeFormControlSelect1">Select a State</label>
+                            <!-- form-control -->
                             <select name="exampleFormControlSelect1" id="examlpeFormControlSelect1" class="form-control">
                             <option value="LA">Louisiana</option>
                             <option value="TX">Texas</option>
@@ -366,7 +368,71 @@
                         </div>
                     </form>
                 </div>
-            </div>
+                <div class="container">
+                    <p><b>Without form-control class</b></p>
+                    <form action="#nowhere">
+                        <!--form group -->
+                        <div class="form-group">
+                            <label for="exampleNoFormControl">Select a State</label>
+                            <select name="exampleNoFormControl" id="exampleNoFormControl">
+                            <option value="LA">Louisiana</option>
+                            <option value="TX">Texas</option>
+                            <option value="TN">Tennessee</option>
+                            <option value="UT">Utah</option>
+                            <option value="KY">Kentucky</option>
+                            <option value="CO">Colorado</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="container">
+                    <h3>Checkboxes and Radio Buttons</h3>
+                    <p>Using form-check, form-check-input, and form-check-label.</p>
+                    <p>This sets a spacing.</p>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" value="" id="exampleCheckBox1">
+                        <label for="exampleCheckBox1" class="form-check-label">Checkbox</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" value="" id="exampleRadio1">
+                        <label for="exampleRadio1" class="form-check-label">Radio Button</label>
+                    </div>
+                </div>
+                <div class="container">
+                    <h3>Form Layouts</h3>
+                    <p>Using the grid system to customize the form layout.</p>
+                    <p>We do this by putting them in a row and using column classes.</p>
+                    <form action="#nowhere">
+                        <!-- put this group in a row -->
+                        <div class="row">
+                            <!--give each form group a column and they will share a space-->
+                            <div class="form-group col">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="email">
+                            </div>
+                            <div class="form-group col">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" id="password" placeholder="password">
+                            </div>
+                        </div>
+                    </form>
+                    <p>Can also use <b>form-row</b> which changes the spacing.</p>
+                    <p>I also changed each to col-2</p>
+                    <form action="#nowhere">
+                        <!-- Form-Row -->
+                        <div class="form-row">
+                            <!--give each form group a column and they will share a space-->
+                            <div class="form-group col-2">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="email">
+                            </div>
+                            <div class="form-group col-2">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" id="password" placeholder="password">
+                            </div>
+                        </div>
+                    </form>
+                </div>
         </section>
     </main>
     <footer class="container">
