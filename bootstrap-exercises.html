@@ -436,6 +436,22 @@
         </section>
         <section class="container">
             <h3>Bootstrap Navbars</h3>
+            <div class="container">
+                <nav class="navbar navbar-light bg-light navbar-expand-lg">
+                    <a href="#" class="navbar-brand">Navbar</a>
+                    <!-- required change from data-toggle and data-target to data-bs-toggle and data-bs-target to work: * NOTE: bottstrap JavaScript link is required for this to work. -->
+                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#expandme"><span class="navbar-toggler-icon"></span></button>
+                    <!-- data-target="#expandme" links id="expandme" linking the button to the navbar -->
+                    <div class="collapse navbar-collapse" id="expandme">
+                        <div class="navbar-nav">
+                            <a href="home" class="nav-item navlink" style="margin-right:10px">home</a>
+                            <a href="about" class="nav-item navlink" style="margin-right:10px">about</a>
+                            <a href="contact" class="nav-item navlink" style="margin-right:10px">contact</a>
+                        </div>
+                        <!-- I had to add inline margin style to give spacing between a links.... ???-->
+                    </div>                           
+                </nav>
+            </div>
         </section>
     </main>
     <footer class="container">
