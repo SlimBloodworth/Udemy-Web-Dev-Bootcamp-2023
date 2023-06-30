@@ -5,6 +5,7 @@
     - [HTML Exercises](#html-exercises)
     - [CSS Exercises](#css-exercises)
     - [Bootstrap Exercises](#bootstrap-exercises)
+    - [JavaScript Exercises](#javascript-exercises)
   - [The Projects](#the-projects)
   - [Screenshot](#screenshot)
   - [Links](#links)
@@ -95,6 +96,10 @@ Using the given HTML:
 ***Section 12: Coding Exercise 14 - Bootstrap Grid Practice***
 Recreate the given grid from the lesson.
 
+#### ***JavaScript Exercises***
+
+The exercises can viewed on the [JavaScript exercises page](https://slimbloodworth.github.io/Udemy-Web-Dev-Bootcamp-2023/js-exercises.html).
+
 ### ***The Projects***
 
 The projects can be viewed on the [course projects page](https://slimbloodworth.github.io/Udemy-Web-Dev-Bootcamp-2023/course-projects.html).
@@ -164,11 +169,11 @@ The form must have form validations, labels, radio buttons, selects, and a regis
 
 ## Author
 
-- Website - [Michelle Renee](https://slimbloodworth.editorx.io/portfolio)
-- Facebook - [Creative Software Solutions](https://www.facebook.com/profile.php?id=100073842390690)
-- CodePen - [@slimbloodworth](https://codepen.io/slimbloodworth)
+- Website - [michellerenee.dev](https://slimbloodworth.editorx.io/portfolio)
 - LinkedIn - [Michelle Renee](https://www.linkedin.com/in/michelle-renee-99b455187/)
 - GitHub - [@slimbloodworth](https://github.com/SlimBloodworth)
+- Facebook - [Creative Software Solutions](https://www.facebook.com/profile.php?id=100073842390690)
+- CodePen - [@slimbloodworth](https://codepen.io/slimbloodworth)
 
 ## Acknowledgments
 
