@@ -103,7 +103,10 @@ The exercises can viewed on the [JavaScript exercises page](https://slimbloodwor
 - ***Section 14: Lesson #147: JS Numbers Quiz***
 
 What does this evaluate to?
-4 + 3 * 4 / 2
+
+- 4 + 3 * 4 / 2
+- (13 % 5) ** 2
+- 200 + 0/0
 
 ### ***The Projects***
 
