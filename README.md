@@ -100,6 +100,11 @@ Recreate the given grid from the lesson.
 
 The exercises can viewed on the [JavaScript exercises page](https://slimbloodworth.github.io/Udemy-Web-Dev-Bootcamp-2023/js-exercises.html).
 
+- ***Section 14: Lesson #147: JS Numbers Quiz***
+
+What does this evaluate to?
+4 + 3 * 4 / 2
+
 ### ***The Projects***
 
 The projects can be viewed on the [course projects page](https://slimbloodworth.github.io/Udemy-Web-Dev-Bootcamp-2023/course-projects.html).
