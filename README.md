@@ -108,6 +108,10 @@ What does this evaluate to?
 - (13 % 5) ** 2
 - 200 + 0/0
 
+- ***Section 14: Coding Exercise 15***
+
+The Challenge: Define 2 variables, one called myLuckyNumber and set the value to 37, the other called octopusLimbs and set the value to 8.
+
 ### ***The Projects***
 
 The projects can be viewed on the [course projects page](https://slimbloodworth.github.io/Udemy-Web-Dev-Bootcamp-2023/course-projects.html).
