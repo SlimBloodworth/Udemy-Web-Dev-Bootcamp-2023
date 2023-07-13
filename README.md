@@ -112,6 +112,16 @@ What does this evaluate to?
 
 The Challenge: Define 2 variables, one called myLuckyNumber and set the value to 37, the other called octopusLimbs and set the value to 8.
 
+- ***Section 14: Coding Exercise 16***
+
+The challenge:
+
+Define the following two variables:
+
+- Define a constant called "boilingPointC" and set it to 100.
+
+- Define a second constant called "boilingPointF" and set it to 212.
+
 ### ***The Projects***
 
 The projects can be viewed on the [course projects page](https://slimbloodworth.github.io/Udemy-Web-Dev-Bootcamp-2023/course-projects.html).
