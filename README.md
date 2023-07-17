@@ -122,6 +122,16 @@ Define the following two variables:
 
 - Define a second constant called "boilingPointF" and set it to 212.
 
+- ***Section 15: Coding Exercise 17***
+
+The challenge:
+
+- Define the following string variables:
+
+- bestColor should be set to the string purple.
+
+- quote should be set to the sting You had me at "hello".
+
 ### ***The Projects***
 
 The projects can be viewed on the [course projects page](https://slimbloodworth.github.io/Udemy-Web-Dev-Bootcamp-2023/course-projects.html).
