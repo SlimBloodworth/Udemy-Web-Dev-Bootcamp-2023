@@ -130,7 +130,15 @@ The challenge:
 
 - bestColor should be set to the string purple.
 
-- quote should be set to the sting You had me at "hello".
+- quote should be set to the string You had me at "hello".
+
+- ***Section 15: Coding Exercise 18***
+
+  The Challenge:
+
+  - Take the provided variable: const message = "   TASTE THE RAINBOW!   ";
+
+  - Without altering the original value stored in message, please define a variable called whisper that is a lowercased version of message, with all the extra space at the beginning and end removed.
 
 ### ***The Projects***
 

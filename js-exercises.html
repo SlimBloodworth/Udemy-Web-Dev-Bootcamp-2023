@@ -222,6 +222,52 @@
                 <p>let bestColor = "purple";</p>
                 <p>let quote = 'You had me at "hello"';</p>
             </div>
+            <div>
+                <h3>Indices and Length #156</h3>
+                <p>String are indexed. Each character has a corresponding index - a positional number.</p>
+                <p>CHICKEN</p>
+                <p>0123456</p>
+                <p>To access the index number use []</p>
+                <p><em>Example:</em> let animal = "chicken";</p>
+                <p>animal[4]; //prints k</p>
+                <p>Use <em><strong>.length</strong></em> to get the number of characters.</p>
+                <p><em>Example:</em> animal.length; // prints 6</p>
+                <p><em><strong>*Note:</strong></em> all strings have a length property and will count a space as a position, but the length property starts counting at 0.</p>
+                <p>So, if we have let animal = "Dumbo Octopus"; animal.length //prints 13 which is accounting for the space between the words.</p>
+                <p>But, if we have animal[12]; // prints s which is the numeric position of the character s.</p>
+                <p>.length will give the entire length including the space. [] only focuses on the character position and does not count the space.</p>
+                <h3>Concatenation</h3>
+                <p>combining 2 strings together bu using the +.</p>
+                <p><em>Example:</em> "My" + "name"; //prints Myname.</p>
+            </div>
+            <div>
+                <h3>String Methods #157</h3>
+                <p>Built in actions that can be performed with individual strings.</p>
+                <p>These help perform actions such as searching within a string, replacing part of a string, and change the casing of a string.</p>
+                <h4>Syntax:</h4>
+                <p>thing.method();</p>
+                <p><em><strong>Example</strong></em></p>
+                <p>let msg = "Leave me be!";</p>
+                <p>msg // Leave me be!</p>
+                <p>msg.toUpperCase(); // LEAVE ME BE!</p>
+                <p>We can capture it by putting it in a variable: let angryMsg = msg.toUpperCase(); // 'LEAVE ME BE!'</p>
+                <p> The original msg still prints 'Leave me be!'</p>
+                <p><em><strong>*Note:</strong></em> .trim(); eliminates any unnecessary white space.</p>
+                <p><strong>Methods can be chained together:</strong></p>
+                <p>thing.method() .method();</p>
+            </div>
+            <div>
+                <h2> Section 15: Coding Exercise 18</h2>
+                <h3>The Challenge:</h3>
+                <p>Take the provided variable: const message = "   TASTE THE RAINBOW!   ";</p>
+                <p>Without altering the original value stored in message, please define a variable called whisper that is a lowercased version of message, with all the extra space at the beginning and end removed.</p>
+                <h3>The Solution:</h3>
+                <p>let whisper = message.toLowerCase().trim();</p>
+
+            </div>
+            <div>
+                <h2>String Methods with Arguments #158</h2>
+            </div>
         </section>
     </main>
 </body>
