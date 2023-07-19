@@ -140,6 +140,18 @@ The challenge:
 
   - Without altering the original value stored in message, please define a variable called whisper that is a lowercased version of message, with all the extra space at the beginning and end removed.
 
+  - ***Section 15: Coding Exercise 19***
+
+  The Challenge:
+
+- Take the word variable which is set to "skateboard" and use string methods on word to change the string to "beard".
+
+- Use a string method to extract the word "board" from skateboard.
+
+- Replace the "o" in "board" with an "e".
+
+- Save the result in a new variable called facialHair.
+
 ### ***The Projects***
 
 The projects can be viewed on the [course projects page](https://slimbloodworth.github.io/Udemy-Web-Dev-Bootcamp-2023/course-projects.html).

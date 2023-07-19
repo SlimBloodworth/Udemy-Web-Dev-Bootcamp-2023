@@ -267,6 +267,29 @@
             </div>
             <div>
                 <h2>String Methods with Arguments #158</h2>
+                <p>Some methods accept arguments that modify their behavior. These arguments are passed inside of the ().</p>
+                <p><em>Example:</em> thing.method(argumentHere);</p>
+                <p>The slice method: .slice()</p>
+                <p>Extracts a section of a string and returns it as a new string, without modifying the original string.</p>
+                <p>can take two arguments: thing.slice(arg1, arg2); <em><strong>or</strong></em> thing.slice(beginIndex, endIndex); <em>*Note: endIndex is optional.</em></p>
+                <p>This will go from the starting index (beginIndex, ) and go up to BUT not including the endIndex ( , endIndex).</p>
+                <p>The replace method: .replace();</p>
+                <p>.replace(); takes 2 arguments: 1st - what you want to replace, and 2nd what you want to replace it with.</p>
+                <p><em>Example:</em> thing.replace("replaceMe", "withThis");</p>
+                <p>This also extracts a section of a string and returns it as a new string, without modifying the original string.</p>
+            </div>
+            <div>
+                <h2> Coding Exercise 19: String Methods Practice</h2>
+                <h3>The Challenge: </h3>
+                <p>Take the word variable which is set to "skateboard" and use string methods on word to change the string to "beard".</p>
+                <p>Use a string method to extract the word "board" from skateboard.</p>
+                <p>Replace the "o" in "board" with an "e".</p>
+                <p>Save the result in a new variable called facialHair.</p>
+                <h3>The Solution:</h3>
+                <p>const word = "skateboard";</p>
+                <p>word.slice(5);</p>
+                <p>word.replace("o","e");</p>
+                <p>let facialHair = word.slice(5).replace("o","e");</p>
             </div>
         </section>
     </main>
