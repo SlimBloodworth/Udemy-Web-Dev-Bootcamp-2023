@@ -291,6 +291,31 @@
                 <p>word.replace("o","e");</p>
                 <p>let facialHair = word.slice(5).replace("o","e");</p>
             </div>
+            <div>
+                <h2>String Template Literals #159</h2>
+                <p>Let's look at life without string template literals first:</p>
+                <p>let item = "oranges";</p>
+                <p>let price = 1.00;</p>
+                <p>let quantity = 2;</p>
+                <p>console.log("You purchased"+""+quantity+""+item+". Your total is"+""+price*quantity);</p>
+                <p><em>result:</em> You purchased 2 oranges. Your total is: 2.00</p>
+                <p><strong>Template Literals are strings that allow embedded expressions,  which will be evaluated and then turned into a resulting string.</strong></p>
+                <p> Things to know:
+                    <ul>
+                        <li>Must use back-ticks, not single quotes: back-ticks = ``, single quotes = ''.</li>
+                        <li>${} - using this tells it to evaluate anything inside the curly braces.</li>
+                    </ul>
+                    <p><em>example:</em> `I counted ${3+4} sheep.`; //prints I counted 7 sheep.</p>
+                    <p>If we change: console.log("You purchased"+""+quantity+""+item+". Your total is"+""+price*quantity);</p>
+                    <p>To: console.log(
+                        `You purchased ${quantity} ${item} Your total is ${price*quantity}');</p>
+                        <p><em>result:</em> You purchased 2 oranges Your total is 2</p>
+                        <p>This embeds variables inside of a string.</p>
+                </p>
+            </div>
+            <div>
+                <h2>Undefined and Null</h2>
+            </div>
         </section>
     </main>
 </body>
