@@ -126,7 +126,7 @@ Define the following two variables:
 
 The challenge:
 
-- Define the following string variables:
+Define the following string variables:
 
 - bestColor should be set to the string purple.
 
@@ -134,23 +134,52 @@ The challenge:
 
 - ***Section 15: Coding Exercise 18***
 
-  The Challenge:
+The Challenge:
 
-  - Take the provided variable: const message = "   TASTE THE RAINBOW!   ";
+  Take the provided variable: const message = "   TASTE THE RAINBOW!   ";
 
-  - Without altering the original value stored in message, please define a variable called whisper that is a lowercased version of message, with all the extra space at the beginning and end removed.
+- Without altering the original value stored in message, please define a variable called whisper that is a lowercased version of message, with all the extra space at the beginning and end removed.
 
-  - ***Section 15: Coding Exercise 19***
+- ***Section 15: Coding Exercise 19***
 
-  The Challenge:
+The Challenge:
 
-- Take the word variable which is set to "skateboard" and use string methods on word to change the string to "beard".
+Take the word variable which is set to "skateboard" and use string methods on word to change the string to "beard".
 
 - Use a string method to extract the word "board" from skateboard.
 
 - Replace the "o" in "board" with an "e".
 
 - Save the result in a new variable called facialHair.
+
+- ***Section 15: Coding Exercise 20***
+
+The Challenge:
+
+You're provided you with two variables, die1 and die2 which represent six-sided dice.
+
+- const die1 = Math.floor(Math.random() * 6) + 1; //random number from 1-6
+- const die2 = Math.floor(Math.random() * 6) + 1; //random number from 1-6
+
+Each variable holds a randomly generated integer from 1 to 6.
+
+- Create a new variable called roll, which will be a string that displays each die as well as their sum.
+
+- Follow this pattern:
+
+- die1: 3
+
+- die2: 5
+
+- roll: "You rolled a 3 and a 5. They sum to 8"
+
+Here is another example with different numbers:
+
+- die1: 6
+
+- die2: 4,
+
+- roll: "You rolled a 6 and a 4. They sum to 10"
 
 ### ***The Projects***
 

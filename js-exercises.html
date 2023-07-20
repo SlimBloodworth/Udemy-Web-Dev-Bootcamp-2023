@@ -315,6 +315,49 @@
             </div>
             <div>
                 <h2>Undefined and Null</h2>
+                <p>Primitive types</p>
+                <ul>
+                    <li><strong>null</strong> - intentional absence of any value. Must be assigned.</li>
+                    <p><em>example:</em> let item = null; // returns null</p>
+                    <li><strong>undefined</strong> - variables that do not have an assigned value are undefined.</li>
+                    <p><em>example:</em> let item; // returns undefined. This variable has no assigned value.</p>
+                </ul>
+            </div>
+            <div>
+                <h2>The Math Object #161</h2>
+                <p>Contains properties and methods for mathematical constants and functions.</p>
+                <p>These are built into JavaScript for us to use.</p>
+                <ul>
+                    <li>Math.PI // 3.14159...</li>
+                    <li>Math.round - rounds a number: Math.round (4.9); // 5</li>
+                    <li>Math.abs - absolute value: Math.abs(-365) // 365</li>
+                    <li>Math.pow - raises to the power of: Math.pow(2,5)// raises 2 to the power of 5 prints 35</li>
+                    <li>Math.floor - removes the decimal and everything behind the decimal: Math.floor(3.9876); //3</li>
+                    <li>Math.random - gives a random number between 0 and 1, but does not include 1: Math.random(); // 0.385243...</li>
+                    <li>Math.ceil - round up: Math.ceil(6.237); // 7</li>
+                    <p>And many others.</p>
+                </ul>
+            </div>
+            <div>
+                <h2>Coding Exercise 20: String Template Literal Exercise</h2>
+                <h3>The Challenge: You're provided you with two variables, die1 and die2 which represent six-sided dice.                
+                    Each variable holds a randomly generated integer from 1 to 6.</h3>
+                <p>const die1 = Math.floor(Math.random() * 6) + 1; //random number from 1-6</p>
+                <p>const die2 = Math.floor(Math.random() * 6) + 1; //random number from 1-6</p>
+                <p>Create a new variable called roll, which will be a string that displays each die as well as their sum.</p>
+                <p>Follow this pattern:</p>
+                <ul>
+                    <li>die1:3</li>
+                    <li>die2:5</li>
+                    <li>roll: "You rolled a 3 and a 5. They sum to 8"</li>
+                    <p>Here is another example with different numbers:</p>
+                    <li>die1:6</li>
+                    <li>die2:4</li>
+                    <li>roll: "You rolled a 6 and a 4. They sum to 10"</li>
+                </ul>
+                <h3>The Solution:</h3>
+                <p>const roll = `You rolled a ${die1} and a ${die2}. They sum to ${die1 + die2}`;</p>
+                <p><em>*Note: back-ticks, no brackets.</em></p>
             </div>
         </section>
     </main>
