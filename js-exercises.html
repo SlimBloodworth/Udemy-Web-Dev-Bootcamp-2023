@@ -378,6 +378,39 @@
                 <li>!== : strict non-equality. Example - 1 !== 3 //true</li>
             </ul>
         </div>
+        <div>
+            <h3>Console, Prompt, and Alert: #166</h3>
+            <ul>
+                <li>console.log(); - takes an argument and prints it to the console.</li>
+                <p><em>console</em> is an object and has many .method() that can be used.</p>
+                <p><em>example:</em> console.warn("Warning!"); //prints Warning! and adds a waning symbol to the beginning of the line.</p>
+                <li>alert(); -takes an argument and print it to the screen in a pop-out box.</li>
+                <p><em>example:</em> alert(2 * 3); //prints 6 to the pop-out box.</p>
+                <li>prompt(); - takes an argument and opens a text box with the information in the argument and allows the user to enter text.</li>
+                <p>The information the user enters will be printed to the console.</p>
+            </ul>
+        </div>
+        <div>
+            <h3>Running JavaScript from a script: #167</h3>
+            <p>Making an external .js file and linking it to the HTML file.</p>
+            <p> Create a JavaScript file: app.js</p>
+            <p>Link this file in the HTML file inside the head tags or at the bottom of the HTML file just above the closing body tag.</p>
+            <p>script src = "app.js" make sure this is in a script tag</p>
+        </div>
+        <div>
+            <p><strong><em>Personal Practice:</em></strong></p>
+            <p>Code for this practice can be viewed in the <a href="app/js-exercises.js">js-exercises.js file.</a></p>
+            <div>
+                <div>
+                    <label for="userNamer">Enter Your First Name</label>
+                    <input type="text" placeholder="name" id="userName" name="name">
+                </div>
+                <button class="userSubmitbutton" id="jsUserSubmitBtn">Submit</button>
+                <div>
+                    <textarea name="outputArea" id="outPut" cols="200" rows="5" class="outPutBox" readonly></textarea>
+                </div>
+            </div>
+        </div>
         </section>
     </main>
 </body>
