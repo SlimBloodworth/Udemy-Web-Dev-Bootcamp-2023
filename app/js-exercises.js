@@ -9,3 +9,14 @@ function greetUser() {
 }
 const submitButton = document.getElementById("jsUserSubmitBtn");
 submitButton.addEventListener("click", greetUser);
+
+/*personal Practice if, else if, and else: Section 16 Lessons #168 -170
+const age = prompt("enter your age");
+
+if (age <= 12){
+    console.log("kiddo!");
+}else if (age <= 18){
+    console.log("teen");
+}else{
+    console.log("Adult");
+}*/

@@ -416,7 +416,7 @@
         <p><pre>
         the code which will run if the condition evaluates to true.    
         }</pre></p>
-        <p><em>example:</em> if (star-rating === 4){</p>
+        <p><em>example:</em> if (starRating === 4){</p>
             <p><pre>
             console.log("4 STARS!!! Amazing!");    
             }</pre></p>
@@ -439,6 +439,34 @@
                            }
                         }
                     </pre>
+            </div>
+            <div>
+                <h3>Else if: Lesson #169</h3>
+                <p>The else if sets the condition to return something if the initial if condition evaluates to false.</p>
+                <p><em>example:</em></p>
+                    <pre>
+                        let starRating = 2;
+                    if (starRating === 4){
+                    console.log("4 STARS!!! Amazing!");    
+                    } else if (starRating === 2) {
+                        console.log("Meets Expectations");
+                    }
+                </pre>
+                <p>in this case, if the starRating is NOT 4, but is 2, it returns "Meets Expectations"</p>
+            </div>
+            <div>
+                <h3>Else: Lesson #170</h3>
+                <p> Use else as final statement</p>
+                <p><em>example:</em></p>
+                <pre>const starRating = 2;
+                    if (starRating = 2){
+                        console.log("Meets Expectations");
+                    }else if(starRating <= 2){
+                        console.log("Below Expectations");
+                    }else{
+                        console.log("Above Expectations!");
+                    }
+                </pre>
             </div>
         </section>
     </main>
