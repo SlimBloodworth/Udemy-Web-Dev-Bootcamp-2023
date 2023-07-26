@@ -181,6 +181,17 @@ Here is another example with different numbers:
 
 - roll: "You rolled a 6 and a 4. They sum to 10"
 
+- ***Section 16: Coding Exercise 21***
+
+The Challenge:
+
+Inside the following function, write an if statement that returns "even" if the variable (num) evaluates to an even number,
+but returns nothing if (num) evaluates to an odd number.
+
+- function isEven(num) {
+//write code here
+}
+
 ### ***The Projects***
 
 The projects can be viewed on the [course projects page](https://slimbloodworth.github.io/Udemy-Web-Dev-Bootcamp-2023/course-projects.html).
