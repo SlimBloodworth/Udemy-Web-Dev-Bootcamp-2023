@@ -192,6 +192,17 @@ but returns nothing if (num) evaluates to an odd number.
 //write code here
 }
 
+- ***Section 16: Coding Exercise 22***
+
+The Challenge:
+
+Your job is to print out a color based upon the following rules:
+
+- if phrase is 'stop', you should print out 'red'
+- if phrase is 'slow', you should print out 'yellow'
+- if phrase is 'go', you should print out 'green'
+- if phrase is anything else, you should print out 'purple'
+
 ### ***The Projects***
 
 The projects can be viewed on the [course projects page](https://slimbloodworth.github.io/Udemy-Web-Dev-Bootcamp-2023/course-projects.html).
