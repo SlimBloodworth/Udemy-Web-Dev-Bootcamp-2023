@@ -20,3 +20,30 @@ if (age <= 12){
 }else{
     console.log("Adult");
 }*/
+/* Practice  Lesson #171 nesting Conditionals*/
+/*const password = prompt("Please create a new password. Password must have at least 6 characters and cannot contain spaces.");
+
+if (password.length >= 6){
+    console.log("Password Good!");
+}else{
+    console.log("Password too short, must contain at least 6 characters.");
+};
+
+if (password.indexOf (' ') === -1){
+    console.log("Password Good!");
+}else {
+    console.log("Password cannot contain spaces.");
+};*/
+/*Nested*/
+/*This portion of the code only runs to see if there is a space IF the password is long enough: if (password.indexOf(' ') === -1) {
+        console.log("Password Good!");*/
+/*const password = prompt("Please create a new password. Password must have at least 6 characters and cannot contain spaces.");
+if (password.length >= 6) {
+    if (password.indexOf(' ') === -1) {
+        console.log("Password Good!");
+    }else{
+        console.log("Password Cannot contain spaces.");
+    }
+}else{
+    console.log("Password too short, must contain at least 6 characters.");
+};*/

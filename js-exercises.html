@@ -411,6 +411,7 @@
                 </div>
             </div>
         </div>
+        <!-- If, Else If, Else -->
         <div><h2>Conditional Statements: </h2><h3>if statements: #168</h3></div>
         <p><em>syntax:</em> if (a condition that evaluates to <em>true</em> or <em>false.</em>){</p>
         <p><pre>
@@ -494,6 +495,93 @@
                 </pre>
             </div>
         </section>
+        <section>
+            <h2>Nesting Conditionals # 171</h2>
+            <h3>Nesting Conditional Inside other Conditionals</h3>
+            <p>Example</p>
+            <p><em>requirements:</em></p>
+            <p>1 - Password must be 6+ characters</p>
+            <p>2 - Password cannot include spaces</p>
+            <p>We can write two separate conditionals:</p>
+            <pre>
+                const password = prompt("Please enter a password with 6 + characters.");
+
+                if (password.length >= 6){
+                    console.log("Password good!");
+                } else {
+                    console.log("Password too short, must be 6 or mor characters.");
+                };
+            </pre>
+            <p> We can use indexOf to find the space: .indexOf(' '); //prints -1 which is the index of a space.</p>
+            <pre>
+                if (password.indexOf(' ') === -1 {
+                    console.log("Password Good!");
+                } else {
+                    console.log("Password cannot contain spaces.");
+                });
+            </pre>
+            <p>However, this prints to the console twice, or prompts the user with two results, one for the first conditional and one for the following.</p>
+            <p>Practice for this lesson can be viewed on <a href="app/js-exercises.js">js-exercises.js</a></p>
+            <br>
+            <p>We can <em>nest</em> the second part inside the first conditional</p>
+            <pre>
+                const password = prompt("Please create a new password. Password must have at least 6 characters and cannot contain spaces.");
+                    if (password.length >= 6) {
+                        if (password.indexOf(' ') === -1) {
+                            console.log("Password Good!");
+                        }else{
+                            console.log("Password Cannot contain spaces.");
+                        }
+                    }else{
+                        console.log("Password too short, must contain at least 6 characters.");
+                    };                    
+            </pre>
+            <p>Now, this code: if (password.indexOf(' ') === -1) {
+                console.log("Password Good!"); only runs to check if there is a space IF the password is long enough.</p>
+                <div>
+                    <h2>Section 16: Coding Exercise 23 - Nested Conditionals Exercise</h2>
+                    <h3>The Challenge:</h3>
+                    <p>Take the nested conditional that uses a variable called num and change the value of num to another number, so that "YOU GOT ME!" is printed out. Don't change anything other than the value of num.</p>
+            <pre>
+                const num = 0; 
+                    if(num <= 100) {
+                        if(num >= 50) {
+                            console.log("HEY!");
+                        }
+                    } else {
+                        if (num < 103) {
+                            if(num % 2 === 0){
+                                console.log("YOU GOT ME!");
+                            }
+                        }
+                    };
+            </pre>
+            <h3>The Solution:</h3>
+            <pre>
+            const num = 102; 
+                if(num <= 100) {
+                    if(num >= 50) {
+                        console.log("HEY!");
+                        }
+                    } else {
+                    if (num < 103) {
+                        if(num % 2 === 0){
+                            console.log("YOU GOT ME!");
+                            }
+                        }
+                    };
+            </pre>
+                    <p>
+                        <ul>
+                            <li>num variable should be greater than 100 to hit the first else block.</li>
+                            <li>num variable should be less than 103 for the nested "if" to be true.</li>
+                            <li>num variable should be even for the final nested "if" to be true.</li>
+                            <li>num should be 102.</li>
+                        </ul>
+                    </p>
+                </div>
+        </section>
+        
     </main>
 </body>
 </html>

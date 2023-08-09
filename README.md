@@ -203,6 +203,12 @@ Your job is to print out a color based upon the following rules:
 - if phrase is 'go', you should print out 'green'
 - if phrase is anything else, you should print out 'purple'
 
+- ***Section 16: Coding Exercise 23***
+
+The Challenge:
+
+- Take the nested conditional that uses a variable called num and change the value of num to another number, so that "YOU GOT ME!" is printed out. Don't change anything other than the value of num.
+
 ### ***The Projects***
 
 The projects can be viewed on the [course projects page](https://slimbloodworth.github.io/Udemy-Web-Dev-Bootcamp-2023/course-projects.html).
