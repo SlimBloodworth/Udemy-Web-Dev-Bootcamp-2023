@@ -47,3 +47,16 @@ if (password.length >= 6) {
 }else{
     console.log("Password too short, must contain at least 6 characters.");
 };*/
+
+/* Personal Practice:
+const dayOfWeek = "Tuesday";
+
+function todayIs (dayOfWeek) {
+    if (dayOfWeek === "Monday") {
+        console.log("Today is Monday!");
+    }else{
+        console.log("It's not Monday.");
+    }
+};
+
+todayIs(dayOfWeek);*/
