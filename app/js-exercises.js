@@ -60,3 +60,18 @@ function todayIs (dayOfWeek) {
 };
 
 todayIs(dayOfWeek);*/
+/*PERSONAL PRACTICE #2*/
+function dayOfWeek() {
+    const todayIs = document.getElementById("dayOfWeek").value;
+    let dayOutPut = document.getElementById("dayOutPut");
+    if(todayIs === "Monday"){
+        dayOutPut.value = "You entered Monday!";
+    }else if (todayIs === "Tuesday"){
+        dayOutPut.value = "You entered Tuesday!";
+    }else{
+        dayOutPut.value = "Well, it's not Monday or Tuesday!";
+    }
+    dayOutPut.value = dayOfWeek(todayIs);
+}
+const daySubmitButton = document.getElementById("dayUserSubmitBtn");
+daySubmitButton.addEventListener("click", dayOfWeek);
