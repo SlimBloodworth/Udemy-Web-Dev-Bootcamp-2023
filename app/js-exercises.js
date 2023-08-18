@@ -75,3 +75,11 @@ function dayOfWeek() {
 }
 const daySubmitButton = document.getElementById("dayUserSubmitBtn");
 daySubmitButton.addEventListener("click", dayOfWeek);
+
+/*checking for truthy or falsy*/
+/*const truthyOrFalsy = prompt("Enter Something'");
+if (truthyOrFalsy){
+    console.log("Truthy");
+}else{
+    console.log("Falsey");
+};*/
