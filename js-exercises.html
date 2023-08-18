@@ -628,6 +628,56 @@
                         <li>! - not</li>
                     </ul>
                 </div>
+                <div><p><strong><em>Logical AND - &&: #173</em></strong></p>
+                <p></p>
+            <p>&& joins expressions.</p>
+        <p>ex:</p>
+        <p>1<=4 && 'a' === 'a';</p>
+        <p>The && joins the expression to the left: 1<=4 with the expression to the right: 'a' === 'a';</p>
+        <p><strong><em>The rule of &&: </em></strong>in order for the entire thing to be true, both the left and the right must be true.</p>
+        <p>If either expression is or becomes false, the entire thing is false.</p>
+        <p>We can use this to clean up our code, for expamle:</p>
+        <pre>
+            const password = prompt("Please create a new password. Password must have at least 6 characters and cannot contain spaces.");
+                if (password.length >= 6) {
+                    if (password.indexOf(' ') === -1) {
+                        console.log("Password Good!");
+                    }else{
+                        console.log("Password Cannot contain spaces.");
+                    }
+                }else{
+                    console.log("Password too short, must contain at least 6 characters.");
+                };                    
+        </pre>
+        <p><strong>Can now become:</strong></p>
+        <pre>
+            const password = prompt("Please create a new password. Password must have at least 6 characters and cannot contain spaces.");
+                if (password.length >= 6 && password.indexOf('') === -1) {
+                    console.log("Valid Password");
+                }else{
+                    console.log("Invalid Password Format");
+                };                   
+        </pre>
+        <p>This <em>joins</em> the first nested conditional expressions from the first example.</p>
+    </div>
+    <div>
+        <h2>Section 16: Coding Exercise 24 - Logical AND Mystery Exercise</h2>
+        <h3>The Challenge:</h3>
+        <p>Take the conditional statement that uses a variable called mystery and change the value of mystery so that the conditional is true and "YOU GOT IT" is printed to the console. Do not change anything other than the value of mystery</p>
+        <pre>
+            const mystery ='';
+            if(mystery[0] === 'P' && mystery.length > 5 && mystery.indexOf('7') !== -1){
+                console.log("YOU GOT IT!!!");
+            };
+        </pre>
+        <h3>The Solution:</h3>
+        <pre>
+            const mystery = 'Please7';
+            if(mystery[0] === 'P' && mystery.length > 5 && mystery.indexOf('7') ! == -1) {
+                console.log("YOU GOT IT!!!");
+            };
+        </pre>
+    </div>
         </section>        
     </main>
 </body>

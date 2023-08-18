@@ -209,6 +209,12 @@ The Challenge:
 
 - Take the nested conditional that uses a variable called num and change the value of num to another number, so that "YOU GOT ME!" is printed out. Don't change anything other than the value of num.
 
+- ***Section 16: Coding Exercise 24 - Logical AND Mystery Exercise***
+
+The Challenge:
+
+- Take the conditional statement that uses a variable called mystery and change the value of mystery so that the conditional is true and "YOU GOT IT" is printed to the console. Do not change anything other than the value of mystery.
+
 ### ***The Projects***
 
 The projects can be viewed on the [course projects page](https://slimbloodworth.github.io/Udemy-Web-Dev-Bootcamp-2023/course-projects.html).
