@@ -76,6 +76,7 @@ function dayOfWeek() {
 const daySubmitButton = document.getElementById("dayUserSubmitBtn");
 daySubmitButton.addEventListener("click", dayOfWeek);
 
+
 /*checking for truthy or falsy*/
 /*const truthyOrFalsy = prompt("Enter Something'");
 if (truthyOrFalsy){
@@ -83,3 +84,17 @@ if (truthyOrFalsy){
 }else{
     console.log("Falsey");
 };*/
+/*PERSONAL PRACTICE #3*/
+function ageAdmission(){
+    const admissionAge = document.getElementById("ageUser").value;
+    let admissionOutPut = document.getElementById("admissionOutPut");
+    if(admissionAge < 6 || admissionAge >= 65){
+        admissionOutPut.value = "Free Admission";
+    }else if(admissionAge >= 6 && admissionAge <= 10){
+        admissionOutPut.value = "$10 Admission";
+    }else if(admissionAge >= 11 || admissionAge <= 64){
+        admissionOutPut.value = "$20 Admission";
+    }
+}
+const ageUserSubmitBtn= document.getElementById("ageUserSubmitBtn");
+ageUserSubmitBtn.addEventListener("click", ageAdmission);

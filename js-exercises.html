@@ -678,6 +678,40 @@
             };
         </pre>
     </div>
+    <div>
+        <h3>Logical or: || Lesson #174</h3>
+        <p><strong><em>The rule of ||: </em></strong>Only one side of the expression needs to be true for the whole thing to be true.</p>
+        <p>ex:</p>
+        <pre>
+            1 !== 1 || 10 === 10 //true
+
+            10/2 === 5 || null //true 
+
+            0 || undefined //false
+
+            false || false // false - because both are false.
+        </pre>
+    </div>
+    <div>
+        <p><strong><em>Personal Practice #3:</em></strong></p>
+        <p>Code for this practice can be viewed in the <a href="app/js-exercises.js">js-exercises.js file.</a> under personal practice #3</p>
+        <p>This exercise is for a cost of admission</p>
+        <ul>
+            <li>5 and under = free</li>
+            <li>6 to 10 = $10</li>
+            <li>11 to 64 = $20</li>
+            <li> 65 + = free</li>
+        </ul>
+    <div>
+        <label for="ageUser">Enter your age</label>
+        <input type="text" placeholder="age" id="ageUser" name="age">
+    </div>
+    <button class="ageSubmitbutton" id="ageUserSubmitBtn">Submit</button>
+    <div>
+        <textarea name="admissionOutputArea" id="admissionOutPut" cols="200" rows="5" class="admissionOutPutBox" readonly></textarea>
+    </div>
+        </div>
+    </div>    
         </section>        
     </main>
 </body>
