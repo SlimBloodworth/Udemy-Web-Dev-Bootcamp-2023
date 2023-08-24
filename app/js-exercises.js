@@ -88,12 +88,14 @@ if (truthyOrFalsy){
 function ageAdmission(){
     const admissionAge = document.getElementById("ageUser").value;
     let admissionOutPut = document.getElementById("admissionOutPut");
-    if(admissionAge < 6 || admissionAge >= 65){
+    if(admissionAge >= 0 && admissionAge < 6 || admissionAge >= 65){
         admissionOutPut.value = "Free Admission";
     }else if(admissionAge >= 6 && admissionAge <= 10){
         admissionOutPut.value = "$10 Admission";
     }else if(admissionAge >= 11 || admissionAge <= 64){
         admissionOutPut.value = "$20 Admission";
+    }else{
+        admissionOutPut.value = "That age does not exist. No Admission."
     }
 }
 const ageUserSubmitBtn= document.getElementById("ageUserSubmitBtn");
