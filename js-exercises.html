@@ -737,7 +737,65 @@
             }
         </pre>
         <p>This runs the code if the firstName variable is falsy.</p>
-    </div>    
+    </div>
+    <div>
+        <h3> Switch Statements - Lesson #176 </h3>
+        <p>The switch statement is a control flow statement that can replace multiple 'if' statements.</p>
+        <p> Syntax uses 2 main keywords: "switch" and "case".</p>
+        <p>The default behavior is that whenever there is a match,it will run the code starting from the match and everything after it until it hits a "break".</p>
+        <p><strong>ex:</strong></p>
+        <pre>
+            const day =2;
+            switch (day) {
+                case 1:
+                console.log("Monday");
+                case 2:
+                console.log("Tuesday");
+                case 3: 
+                console.log("Wednesday");
+                case 4:
+                console.log("Thursday");
+            }
+            //Prints case 2 - 4, Monday, Tuesday, Wednesday, Thursday. This is because the day variable is set to the value 2, and matches case 2.
+        </pre>
+        <P>we use the 'break' keyword to tell the switch statement where to stop. Generally at the end of each case.</P>
+        const day =2;
+            switch (day) {
+                case 1:
+                console.log("Monday");
+                break;
+                case 2:
+                console.log("Tuesday");
+                break;
+                case 3: 
+                console.log("Wednesday");
+                break;
+                case 4:
+                console.log("Thursday");
+                break;
+            }
+    </div>
+    <p>We add a default case at the end in case nothing matches.</p>
+    const day =2;
+    switch (day) {
+        case 1:
+        console.log("Monday");
+        break;
+        case 2:
+        console.log("Tuesday");
+        break;
+        case 3: 
+        console.log("Wednesday");
+        break;
+        case 4:
+        console.log("Thursday");
+        break;
+        default:
+        console.log("Must be the weekend.");
+    }    
+        </section>
+        <section>
+            <h2>Section 17: JavaScript Arrays</h2>
         </section>        
     </main>
 </body>
