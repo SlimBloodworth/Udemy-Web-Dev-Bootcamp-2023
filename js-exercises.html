@@ -718,6 +718,25 @@
     </div>
     <div>
         <h3> Logical Not: ! - Lesson # 175.</h3>
+        <p>! expression returns true is expression is false.</p>
+        <P> ! Logical Not negates the value.</P>
+        <p><strong>ex:</strong></p>
+        <ul>
+            <li>!null // true</li>
+            <li>!(0 === 0) //false</li>
+            <li>!(3 <= 4) //false</li>
+        </ul>
+    </div>
+    <div>
+        <p><strong>Use case example</strong></p>
+        <pre>
+            const firstName = prompt("enter your first name");
+
+            if(!firstName) {
+                firstName = prompt("enter your firstName");
+            }
+        </pre>
+        <p>This runs the code if the firstName variable is falsy.</p>
     </div>    
         </section>        
     </main>
